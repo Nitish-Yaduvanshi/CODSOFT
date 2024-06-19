@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="portf.png" id="logo1" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>FRONTEND DEVLOPER</p>
+                <h1>Hi, I'm <span>Nitish Yadav</span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- About section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user1.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Hello there! 👋 I'm Nitish Yadav, currently pursuing my BCA (Bachelor of Computer Applications) and thriving in my second year of studies. My journey in the world of technology began with a fascination for web development and digital marketing, and since then, I've been on an exhilarating quest to master these domains.
+                        As I continue to grow academically and professionally, my goal is to contribute to innovative projects that push boundaries and make a meaningful impact. I envision a future where my skills in web development and digital marketing empower businesses to thrive in the digital realm.</p>
+                       <br>
+                        Name : NITISH YADAV <br>
+                        Education : BCA <br>
+                        Year : 2 year  <br>
+                        College : GOVT. Rajindra college 
+                    </p>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div> 
+          
+<!---------------- services ---------------------->
+
+       <div id="services">
+
+          <div class="container">
+             <h1 class="sub-title">My Services</h1>
+             <div class="services-list">
+               
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem natus assumenda architecto iure? ique consequuntur reiciendis inventore?</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <h2>Grahics Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem natus assumenda architecto iure? inima similique consequuntur reiciendis inventore?</p>
+                    <a href="#">Learn More</a>
+              </div>
+
+              <div>
+                <h2>Digital Marketer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem natus assumenda architecto iure? milique consequuntur reiciendis inventore?</p>
+                <a href="#">Learn More</a>
+              </div>
+
+             </div>
+          </div>
+       </div>
+
+    <!-- ---------------- Portfolio ---------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nihil unde iure optio illo est.</p>
+                        <a href="#"> </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nihil unde iure optio illo est.</p>
+                        <a href="#"> </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.png" >
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nihil unde iure optio illo est.</p>
+                        <a href="#"> </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------contact------------ -->
+
+    <div id="contact">
+        <div class="container"
+          <div class="row">
+
+            <div class="contact-left">
+              <h1 contact="sub-title">Contact Me</h1>
+              <p> <i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+              <p><i class="fa-solid fa-phone"></i>0123456789</p>
+              <div class="social-icons">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+            </div>
+
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+
+      var tablinks = documents.getElementsByClassName("tab-links");
+      var tabcontents = documents.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablinks of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+        }
+
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classlist.add("active-tab");
+      }
+
+
+
+    </script>
+</body>
+</html>
